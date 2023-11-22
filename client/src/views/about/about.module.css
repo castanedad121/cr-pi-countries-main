@@ -1,0 +1,76 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.ContainerAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background: rgb(91, 29, 153);
+    background: radial-gradient(circle, rgba(91, 29, 153, 0.7232142857142857) 0%, rgba(255, 212, 31, 0.7792366946778712) 100%);
+    border-radius: 40px;
+    padding: 40px;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.ImgContainer {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px #0000009f;
+    width: 200px;
+}
+
+.Img {
+    object-fit: cover;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Containertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    color: #FFD41F;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.Containertext span {
+    color: #FFD41F;
+    font-weight: bold;
+}
+
+.Containertext label {
+    color: aliceblue;
+    font-weight: 200;
+    text-shadow: #0b363978;
+}
+
+.ContainerLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.ContainerLinks a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.ContainerLinks a:hover {
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}

@@ -1,0 +1,37 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #5B1D99;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    font-size: medium;
+    margin-top: auto;
+    height: 40px;
+}
+.ContainerLinks{
+    display: flex;
+    position: relative;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.ContainerLinks a{
+    font-size: 20px;
+    color: white;
+}
+
+.ContainerLinks a:hover{
+    color: #FFD41F;
+    scale: 1.1;
+    
+}
+
+.Footer span:hover{
+    color: #FFD41F;
+    scale: 1.1;
+}

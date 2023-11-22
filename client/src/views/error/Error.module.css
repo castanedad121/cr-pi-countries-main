@@ -1,0 +1,75 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ContainerError{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ContainerH1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #FFFFFF, 0 0 15px #FFFFFF, 0 0 30px #FFFFFF;
+    font-weight: bolder;
+    background: transparent;
+    text-align: center;
+    font-size: 270px;
+    margin: 0px;    
+    -webkit-text-stroke: 0.5px rgba(137, 165, 235, 0.761);
+}
+.ContainWorld{
+    margin: 0px;
+    padding: 0px;
+    scale: 0.7;
+}
+
+.ContainerEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.ContainerEnd h2{
+    color: #FFD41F;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    margin-bottom: 20px;
+}
+
+.ContainerEnd button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #FFD41F;
+    border: 3px solid #ffffff;
+    font-size: large;
+    font-weight: 700;
+    color: #ffffff; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 20px;
+}
+
+.ContainerEnd button:hover{
+    border-radius: 10px;
+    background-color: #00B34C;
+    border: 3px solid #FFD41F;
+    scale: 1.1;
+}
